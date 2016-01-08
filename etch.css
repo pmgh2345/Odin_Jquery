@@ -1,0 +1,24 @@
+.container {
+	background-color:blue;
+	height: 1000px;
+	width: 1000px;
+	display:table;
+}
+
+.square {
+	
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	background-color:red;
+	display: table-cell;
+}
+
+.squareA {
+	
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	background-color:blue;
+	display: table-cell;
+}
