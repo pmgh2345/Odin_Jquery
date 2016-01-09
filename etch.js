@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var size = 16;
+	var size = prompt("What should be the size of an area's side?");
 	var dimension = ($('.container').width())/size;
 	var dimensionA = dimension+'px';
 	console.log(dimensionA);
@@ -11,9 +11,12 @@ $(document).ready(function() {
 			"width":dimensionA,
 			"height":dimensionA
 		});
-	$('.square').live('mouseenter', function() {
+	$('.square').on('mouseenter', function() {
 		$(this).removeClass('square');
 		$(this).addClass('squareA');
+	});
+	$('button').live('click',function() {
+		
 	});
 	
 });

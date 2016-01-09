@@ -22,3 +22,7 @@
 	background-color:blue;
 	display: table-cell;
 }
+
+button {
+	float: right;
+}
