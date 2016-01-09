@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 	var size = prompt("What should be the size of an area's side?");
 	var dimension = ($('.container').width())/size;
 	var dimensionA = dimension+'px';
