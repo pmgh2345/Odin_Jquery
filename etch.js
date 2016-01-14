@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var staging = function() {
 		var size = prompt("What should be the size of an area's side?");
-		var dimension = ($('.container').width())/size;
+		var dimension = (($('.container').width())-1)/size;
 		var dimensionA = dimension+'px';
 		console.log(dimensionA);
 		for (var counter = 1; counter < (size*size+1); counter++) {
@@ -19,8 +19,8 @@ $(document).ready(function() {
 	};
 	staging();
 	$('button').on('click',function() {
+		$('.squareA').removeClass('squareA');
 		staging();
-	});
-	
+	});	
 });
 
